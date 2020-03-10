@@ -1,0 +1,30 @@
+{
+    "name": "web-pack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "test.js",
+    "scripts": {
+        "test": "node ./node_modules/jest/bin/jest.js",
+        "build": "node ./node_modules/webpack/bin/webpack.js --mode production",
+        "dev": "node ./node_modules/webpack/bin/webpack.js --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "bootstrap": "^4.3.1",
+        "css-loader": "^3.1.0",
+        "file-loader": "^5.1.0",
+        "jest": "^24.8.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "monaco-editor-webpack-plugin": "^1.9.0",
+        "node-sass": "^4.12.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "^7.1.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "monaco-editor": "^0.20.0",
+        "style-loader": "^0.23.1"
+    }
+}
